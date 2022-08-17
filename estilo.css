@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: red;
+}
+
+.calculadora {
+    width: 350px;
+    height: 500px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    font-size: 1.5em;
+    background: black;
+    color: white;
+
+    margin: auto;
+
+    
+}
+
+.pantalla {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(253, 253, 253);
+    margin: 15px auto;
+    background: rgb(204, 202, 202);
+    color: black;
+}
+
+.pantalla:hover {
+    background: white;
+}
+
+.botonera {
+    width: 100%;
+    height: 85%;
+    border: 1px solid tomato;
+    border-radius: 20px;
+
+    display: flex;
+}
+
+.numeros {
+    width: 80%;
+    height: 70%;
+    border: 1px dashed blue;
+    margin: auto;
+
+    display: flex;
+    flex-flow: wrap;
+    column-gap: 5px;
+}
+
+.btn {
+    
+    width: 70px;
+    height: 30px;
+    border: 1px solid rgb(42, 180, 214);
+    text-align: center;
+    border-radius: 20%;
+
+    margin: auto;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .5;
+}
+
+.operadores {
+    width: 18%;
+    height: fit-content;
+    border: 2px solid green;
+    margin: auto;
+    
+}
+
+.operadores .btn {
+    width: 50px;
+    background: rgb(42, 180, 214);
+    margin-bottom: 10px;
+    color: black;
+}
+
+.numeros__sumados {
+    max-width: 350px;
+    height: 50px;
+    margin: 35px auto;
+    background: black;
+    color: aqua;
+    border: 2px solid yellow;
+}
+
+
+
+/* 
+body {
+    background: rgb(202, 25, 25);
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3fr);
+    grid-template-rows: 1fr 12fr 1fr;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: blue;
+    color: rgb(230, 154, 230);
+    text-align: center;
+}
+
+main {
+    
+    background: grey;
+    border: 2px solid black;
+
+
+}
+
+.cajapadre {
+    display: flex;
+    flex-flow: wrap;
+    gap: 10px 10px;
+    margin: 10px 10px;
+    
+}
+
+.cajapadre div {
+    width: 150px;
+    height: 150px;
+    border: 1px solid  black;
+    background: rgb(0, 102, 255);
+
+    display: flex;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: blue;
+    color: rgb(230, 154, 230);
+    text-align: center;
+} */
